@@ -1,0 +1,233 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+    color: #360000;
+    font-family: Roboto;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #360000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* padding: 15px; */
+}
+
+.logo {
+    height: 60px;
+    width: 250px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.main > h1 {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 250px;
+    background-color: #360000;
+    background-image: url('resources/colorful-pattern.jpg');
+    background-size: cover;
+    margin-top: px;
+    margin-bottom: 10px;
+}
+
+.main-banner h1 {
+    font-weight: bold;
+    color: azure;
+    font-size: 2.5rem;
+    padding-left: 80px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+    
+}
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 10px 10px 0;
+    
+}
+     /* project images below  */
+#images {
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.page-headings {
+    text-align: center;
+    padding: 5px;
+}
+.rfq-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rfq-button {
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #360000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #453535;
+  }
+  
+  .button:hover {background-color: #7b3d3d}
+  
+  /* .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); */
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .staff-card {
+    /* background-color: #360000 */
+    width: 270px;
+    height: 420px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+  }
+  .staff-img {
+   height: 290px;
+   margin-bottom: 5px;
+   border-radius: 15px 15px 0px 0px; 
+  }
+  
+  .caption {
+    padding: 10px;
+    line-height: 2px;
+    margin-left: 15px;
+  }
+
+/* .caption {
+    padding: 12px;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 2px;
+    color: #000;
+}  */
+
+
+#staff1 {
+    background-image: url('resources/Henry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#staff2 {
+    background-image: url('resources/Shady.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#staff3 {
+    background-image: url('resources/Hill.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#staff4 {
+    background-image: url('resources/Sadi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* media querry */
+
+@media only screen and (max-width: 480px) {
+    body {
+    font-size: 12px;
+}
+
+    .logo {
+    /* display: none; */
+    height: 30px;
+    width: 100px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    nav a {
+        font-size: 0.6rem;
+    }
+    .main-banner h1 {
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+    #images {
+        height: 200px;
+        width: 300px;
+        padding: 10px;
+        border-radius: 13px;
+    }
+    
+
+    }
+
+
+
+
+footer > p {
+    text-align: center;
+    color: gray;
+}
+footer {
+    height: 80px;
+    background-color: #360000;
+    padding: 10px;
+}
