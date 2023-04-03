@@ -4,7 +4,7 @@ html {
     font-size: 16px;
     color: #360000;
     font-family: Roboto;
-    background-color: rgb(224, 212, 212);
+    background-color: #FFFFFF;
 }
 body {
     margin: 0;
@@ -15,12 +15,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
     /* padding: 15px; */
 }
 
 .logo {
-    height: 60px;
+    height: 80px;
     width: 250px;
 }
 
