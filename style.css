@@ -16,7 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    /* padding: 15px; */
+    position: sticky;
+    top: 0;
 }
 
 .logo {
